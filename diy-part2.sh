@@ -12,8 +12,7 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
-git clone https://github.com/Zxilly/UA2F.git package/UA2F
+git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
 git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
 git clone https://github.com/lucikap/luci-app-ua2f.git package/luci-app-ua2f
-git clone https://github.com/lucikap/luci-app-brukamen/tree/main/mentohust/luci-app-mentohust package/luci-app-mentohust
-git clone https://github.com/lucikap/luci-app-brukamen/tree/main/mentohust/mentohust package/mentohust
+
